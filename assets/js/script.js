@@ -6,7 +6,8 @@ $(document).ready(function(){
 		$(".hand").addClass("hand-animation");
 		$(".hand").removeClass("paused");
 	});
-	$('.stop-btn').click(function(event) {
+	
+	$('.reset-btn').click(function(event) {
 		$(".hand").removeClass("hand-animation");
-	});      
+	}); 
 });
